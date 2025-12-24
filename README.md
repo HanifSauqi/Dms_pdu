@@ -194,13 +194,6 @@ rm -rf node_modules package-lock.json
 npm install
 ```
 
-### pgvector extension missing
-
-Fitur semantic search butuh pgvector extension. Install dari:
-https://github.com/pgvector/pgvector
-
-> **Note:** Aplikasi tetap bisa jalan tanpa pgvector, hanya fitur semantic search yang tidak aktif.
-
 ## 📁 Struktur Project
 
 ```
@@ -308,8 +301,6 @@ cd database
 chmod +x setup-docker.sh
 ./setup-docker.sh
 ```
-
-Docker akan create container PostgreSQL dengan pgvector.
 
 **Docker Commands:**
 ```bash
